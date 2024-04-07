@@ -75,20 +75,6 @@ import Login from '../layouts/LoginMain.vue'
 </script>
 
 <style scoped>
-   :root {
-    --dark-primary-color: #512da8;
-    --light-primary-color: #d1c4e9;
-    --primary-color: #673ab7;
-    --text-icons: #ffffff;
-    --accent-color: #607d8b;
-    --primary-text: #212121;
-    --secondary-color: #757575;
-    --divider-color: #bdbdbd;
-    --font-text: Arial, Helvetica, sans-serif;
-}
-body {
-    background-color: #673ab7;
   
-}
 
 </style>
