@@ -15,11 +15,11 @@
         <template v-slot:main>
             <div class="item1 position" id="div_userName">
             <label class="lbl-label" id="lbl_userName" for="txt_userName">User</label>
-            <input type="text" id="txt_userName" class="text-input" placeholder="Enter your email" />
+            <input type="text" id="txt_userName" class="text-input" placeholder="Enter your email" v-model="email"/>
         </div>
         <div class="item2 position" id="div_userPassword">
             <label class="lbl-label" id="lbl_userPassword" for="txt_userPassword">Password</label>
-            <input type="text" id="txt_userPassword" class="text-input" placeholder="Enter your Password" />
+            <input type="text" id="txt_userPassword" class="text-input" placeholder="Enter your Password" v-model="password"/>
         </div>
         <div class="item3 position" id="div_userPassword">
             <button class="button" style="vertical-align:middle"  @click.prevent="authUser"><span>Sing in </span></button>
